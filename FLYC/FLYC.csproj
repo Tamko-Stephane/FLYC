@@ -166,39 +166,93 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\HelpPage\HelpPage.css" />
-    <Content Include="Assets\Fonts\font-awesome.min.css" />
-    <Content Include="Assets\Fonts\fontawesome-webfont.svg" />
+    <Content Include="Assets\Fonts\font-awesome.min.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Fonts\fontawesome-webfont.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-reboot.css" />
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\img\about\1.jpg" />
-    <Content Include="Content\img\about\2.jpg" />
-    <Content Include="Content\img\about\3.jpg" />
-    <Content Include="Content\img\about\4.jpg" />
-    <Content Include="Content\img\clients\creative-market.jpg" />
-    <Content Include="Content\img\clients\designmodo.jpg" />
-    <Content Include="Content\img\clients\envato.jpg" />
-    <Content Include="Content\img\clients\themeforest.jpg" />
-    <Content Include="Content\img\headerbg.jpg" />
-    <Content Include="Content\img\mapimage.png" />
-    <Content Include="Content\img\portfolio\1-full.jpg" />
-    <Content Include="Content\img\portfolio\1-thumbnail.jpg" />
-    <Content Include="Content\img\portfolio\2-full.jpg" />
-    <Content Include="Content\img\portfolio\2-thumbnail.jpg" />
-    <Content Include="Content\img\portfolio\3-full.jpg" />
-    <Content Include="Content\img\portfolio\3-thumbnail.jpg" />
-    <Content Include="Content\img\portfolio\4-full.jpg" />
-    <Content Include="Content\img\portfolio\4-thumbnail.jpg" />
-    <Content Include="Content\img\portfolio\5-full.jpg" />
-    <Content Include="Content\img\portfolio\5-thumbnail.jpg" />
-    <Content Include="Content\img\portfolio\6-full.jpg" />
-    <Content Include="Content\img\portfolio\6-thumbnail.jpg" />
-    <Content Include="Content\img\team\1.jpg" />
-    <Content Include="Content\img\team\2.jpg" />
-    <Content Include="Content\img\team\3.jpg" />
+    <Content Include="Content\img\about\1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\img\about\2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\img\about\3.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\img\about\4.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\img\clients\creative-market.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\img\clients\designmodo.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\img\clients\envato.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\img\clients\themeforest.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\img\headerbg.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\img\mapimage.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\img\portfolio\1-full.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\img\portfolio\1-thumbnail.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\img\portfolio\2-full.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\img\portfolio\2-thumbnail.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\img\portfolio\3-full.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\img\portfolio\3-thumbnail.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\img\portfolio\4-full.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\img\portfolio\4-thumbnail.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\img\portfolio\5-full.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\img\portfolio\5-thumbnail.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\img\portfolio\6-full.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\img\portfolio\6-thumbnail.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\img\team\1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\img\team\2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\img\team\3.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Areas\HelpPage\Views\Web.config" />
@@ -244,14 +298,30 @@
     <Content Include="Content\bootstrap-reboot.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
-    <Content Include="Assets\Fonts\fontawesome-webfont.eot" />
-    <Content Include="Assets\Fonts\fontawesome-webfont.ttf" />
-    <Content Include="Assets\Fonts\fontawesome-webfont.woff" />
-    <Content Include="Assets\Fonts\fontawesome-webfont.woff2" />
-    <Content Include="Assets\Fonts\FontAwesome.otf" />
-    <Content Include="Assets\Fonts\RobotoSlab\RobotoSlab-VariableFont_wght.ttf" />
-    <Content Include="Assets\Fonts\DroidSerif\DroidSerif-Italic.ttf" />
-    <Content Include="Assets\Fonts\DroidSerif\DroidSerif-Regular.ttf" />
+    <Content Include="Assets\Fonts\fontawesome-webfont.eot">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Fonts\fontawesome-webfont.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Fonts\fontawesome-webfont.woff">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Fonts\fontawesome-webfont.woff2">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Fonts\FontAwesome.otf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Fonts\RobotoSlab\RobotoSlab-VariableFont_wght.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Fonts\DroidSerif\DroidSerif-Italic.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Fonts\DroidSerif\DroidSerif-Regular.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Assets\Fonts\KaushanScript\KaushanScript-Regular.ttf" />
     <None Include="Scripts\jquery-3.5.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.5.1.js" />
